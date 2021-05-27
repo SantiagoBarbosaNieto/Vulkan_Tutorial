@@ -118,6 +118,7 @@ private:
         createLogicalDevice();
         createSwapChain();
         createImageViews();
+        createGraphicsPipeline();
     }
 
     void mainLoop() {
@@ -437,7 +438,6 @@ private:
         swapChainExtent = extent;
     }
 
-
     void createImageViews() {
         swapChainImageViews.resize(swapChainImages.size());
         for (size_t i = 0; i < swapChainImages.size(); i++) {
@@ -606,6 +606,10 @@ private:
 
         std::cout << "GPU: " << deviceProperties.deviceName << "\n\t Score: " << score << "\n";
         return score;
+    }
+
+    void createGraphicsPipeline() {
+
     }
 
     static VKAPI_ATTR VkBool32 VKAPI_CALL debugCallback(
