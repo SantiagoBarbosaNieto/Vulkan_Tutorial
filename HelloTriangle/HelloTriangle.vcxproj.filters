@@ -24,4 +24,11 @@
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shader.vert" />
+    <None Include="Shaders\shader.frag" />
+    <None Include="compile.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
