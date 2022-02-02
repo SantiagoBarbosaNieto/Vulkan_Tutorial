@@ -1,6 +1,6 @@
 validation layer (Error): loader_get_json: Failed to open JSON file C:\Program Files (x86)\Epic Games\Launcher\Portal\Extras\Overlay\EOSOverlayVkLayer-Win32.json
 validation layer (Error): loader_get_json: Failed to open JSON file C:\Program Files (x86)\Epic Games\Launcher\Portal\Extras\Overlay\EOSOverlayVkLayer-Win64.json
-validation layer (Verbose): loaderGetDeviceRegistryFiles: GUID for 21 is not SoftwareComponent skipping
+validation layer (Verbose): loaderGetDeviceRegistryFiles: GUID for 20 is not SoftwareComponent skipping
 validation layer (Verbose): Searching for ICD drivers named .\nvoglv64.dll
 validation layer (Verbose): Searching for ICD drivers named .\igvk64.dll
 validation layer (Verbose): Build ICD instance extension list
